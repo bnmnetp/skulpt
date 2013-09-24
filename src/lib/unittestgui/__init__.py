@@ -51,7 +51,7 @@ class unittest:
         res = actual==expected
         self.appendResult(res,str(actual)+' to be equal to ',expected, feedback)
 
-    def assertNotEqual(actual, expected, feedback=""):
+    def assertNotEqual(self, actual, expected, feedback=""):
         res = actual != expected
         self.appendResult(res,str(actual)+' to not equal ',expected,feedback)
 
